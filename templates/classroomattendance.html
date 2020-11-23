@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block body %}
+
+
+
+
+
+<!-- 
+<form action="/uploader" method="POST" enctype="multipart/form-data">
+    <input type="file" name="video" width="200px">
+    <button type="submit" class="btn btn-success mt-4">Upload</button>
+
+</form>
+ -->
+
+
+<form action="/attendanceImages" method="POST" enctype="multipart/form-data">
+    <p>Upload the zip file of all the images of students. The images should not be repeatative and also name the images
+        as per the students.</p>
+    <div class="container">
+        <div class="input-group mb-3">
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile01"
+                    aria-describedby="inputGroupFileAddon01" name="zipfile">
+                <label class="custom-file-label" for="inputGroupFile01" style="text-align: center;">Drag and
+                    Drop your Zip file of Images on this bar</label>
+            </div>
+        </div>
+
+        <br>
+
+
+
+        <button type="submit" class="btn btn-primary btn-success">Upload</button>
+
+    </div>
+
+
+</form>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+{% block body %}
+
+
+
+
+
+<!-- 
+<form action="/uploader" method="POST" enctype="multipart/form-data">
+    <input type="file" name="video" width="200px">
+    <button type="submit" class="btn btn-success mt-4">Upload</button>
+
+</form>
+ -->
+
+
+<form action="/uploader" method="POST" enctype="multipart/form-data">
+    <div class = "container">
+        <div class="input-group mb-3">
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01"
+                    name="video">
+                <label class="custom-file-label" for="inputGroupFile01" style="text-align: center;" >Drag and
+                    Drop your video file on this bar</label>
+            </div>
+        </div>
+    
+        <br>       
+        
+        <div class="form-row" style="align-items: center;">           
+            <div class="form-group col-md-4">
+                <label for="inputState">Monitor Activity</label>
+                <select id="inputState" class="form-control" name="option">
+                    <option selected>Students Outisde Dorms</option>
+                    <option selected>Drowsy Driver</option>
+                    <option selected>Texting while driving</option>
+                    <option selected>Drinking while driving</option>
+                    <option selected>Gender Classification</option>
+                    <option selected>Masked faces Classification</option>
+                    <option selected>ClassRoom Attendance</option>
+                </select>
+            </div>
+        </div>
+        
+        <button type="submit" class="btn btn-primary btn-success">Upload</button>
+
+    </div>
+    
+
+</form>
+
+
+
+
+{% endblock %}

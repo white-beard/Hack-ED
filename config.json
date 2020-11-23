@@ -1,0 +1,30 @@
+{
+    "Params":{
+       "upload_folder": "static/VideoUploadStore",
+       "allowed_extension": ["MP4", "MKV", "AVI"],
+       "zip_extensions":["ZIP", "RAR"],
+       "max_video_length": "104857600",
+       "frontal_face_detector": "Resources//haarcascade_frontalface_default.xml",
+       "dlib_68_face_landmarks": "Resources//shape_predictor_68_face_landmarks.dat",
+       "fullbody_detector": "Resources//haarcascade_fullbody.xml",
+       "video_folder" : "static//Video",
+       "images_folder" : "static//images",
+       "gender_classifier_weights": "Resources//GenderClassifierWeights",
+       "maskedVsUnmasked_weights": "Resources//MaskedFacesClassifier",
+       "textingClassifier_arch": "Resources//TextingClassifier//texting_vs_normal_neural_net.json",
+       "textingClassifier_weights":"Resources//TextingClassifier//texting_vs_normal_neural_net_weights.h5",
+       "drinkingClassifier_arch": "Resources//DrinkingClassifier//Drinking_vs_normal_neural_net.json",
+       "drinkingClassifier_weights":"Resources//DrinkingClassifier//Drinking_vs_normal_neural_net.h5",
+       "facenet_prototxt":"Resources//face_detector//deploy.prototxt",
+       "facenet_weights":"Resources//face_detector//res10_300x300_ssd_iter_140000.caffemodel",
+       "studentImages" : "static//studentImages",
+       "zip_upload" : "static//zipUpload",
+       "attendanceSheet" : "static//attendanceSheet",
+       "talkingonphone_json" : "Resources//TalkingOnPhone//Talking_vs_normal_neural_net.json",
+       "talkingonphone_weights" : "Resources//TalkingOnPhone//Talking_vs_normal_neural_net.h5"
+
+
+       
+    
+    }
+}
